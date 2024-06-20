@@ -1,0 +1,34 @@
+{
+  "tareas": [
+    {
+      "id": "1",
+      "titulo": "primer tarea",
+      "activa": true
+    },
+    {
+      "id": "2",
+      "titulo": "segunda tarea",
+      "activa": true
+    },
+    {
+      "titulo": "tercera tarea",
+      "completada": false,
+      "id": "3"
+    },
+    {
+      "id": "3f27",
+      "titulo": "Quinta tarea",
+      "completada": true
+    },
+    {
+      "id": "6e40",
+      "titulo": "lavar los platos",
+      "completada": false
+    },
+    {
+      "titulo": "cocinar",
+      "completada": true,
+      "id": "7c9d"
+    }
+  ]
+}
