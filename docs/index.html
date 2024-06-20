@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestión de Tareas</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-DkjTvAEq.css">
+</head>
+<body>
+  <div id="app">
+    <form id="tareaForm">
+      <label for="titulo">Titulo de la tarea</label>
+      <input type="text" id="titulo" name="titulo" required>
+      <div class="checkbox-container">
+        <label for="completada">Completada</label>
+        <input type="checkbox" name="completada" id="completada">
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Título</th>
+          <th>Completada</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="tareasTableBody">
+      </tbody>
+    </table>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
